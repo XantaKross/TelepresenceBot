@@ -1,0 +1,21 @@
+[0.862s] Invoking command in '/home/xanta/tBot/botSpace/src/tbmain': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbmain build --build-base /home/xanta/tBot/botSpace/build/tbmain/build install --record /home/xanta/tBot/botSpace/build/tbmain/install.log --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.105s] writing ../../build/tbmain/tbmain.egg-info/PKG-INFO
+[1.105s] writing dependency_links to ../../build/tbmain/tbmain.egg-info/dependency_links.txt
+[1.105s] writing entry points to ../../build/tbmain/tbmain.egg-info/entry_points.txt
+[1.105s] writing requirements to ../../build/tbmain/tbmain.egg-info/requires.txt
+[1.105s] writing top-level names to ../../build/tbmain/tbmain.egg-info/top_level.txt
+[1.108s] reading manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] running install
+[1.110s] running install_lib
+[1.111s] running install_data
+[1.112s] copying launch/launch_robot.launch.py -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.112s] running install_egg_info
+[1.114s] removing '/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain-0.0.0-py3.10.egg-info' (and everything under it)
+[1.114s] Copying ../../build/tbmain/tbmain.egg-info to /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain-0.0.0-py3.10.egg-info
+[1.115s] running install_scripts
+[1.143s] writing list of installed files to '/home/xanta/tBot/botSpace/build/tbmain/install.log'
+[1.281s] Invoked command in '/home/xanta/tBot/botSpace/src/tbmain' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbmain build --build-base /home/xanta/tBot/botSpace/build/tbmain/build install --record /home/xanta/tBot/botSpace/build/tbmain/install.log --single-version-externally-managed install_data

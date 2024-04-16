@@ -1,0 +1,5 @@
+[console_scripts]
+client = tbcontrol.controlClient:main
+rmcontrol = tbcontrol.rmcontrol:main
+service = tbcontrol.controlServer:main
+

@@ -1,0 +1,41 @@
+running develop
+Removing /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain.egg-link (link to .)
+running egg_info
+writing ../../build/tbmain/tbmain.egg-info/PKG-INFO
+writing dependency_links to ../../build/tbmain/tbmain.egg-info/dependency_links.txt
+writing entry points to ../../build/tbmain/tbmain.egg-info/entry_points.txt
+writing requirements to ../../build/tbmain/tbmain.egg-info/requires.txt
+writing top-level names to ../../build/tbmain/tbmain.egg-info/top_level.txt
+reading manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+writing manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/rmcontrol.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/controlClient.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/controlServer.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/__init__.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/rmcontrol.py to rmcontrol.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/controlClient.py to controlClient.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/controlServer.py to controlServer.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/tbmain -> /home/xanta/tBot/botSpace/install/tbmain/share/ament_index/resource_index/packages
+copying package.xml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying launch/rsp.launch.py -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying launch/launch_sim.launch.py -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/inertial_macros.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/gazebo_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/ros2_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/robot.urdf.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/robot_core.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying description/lidar.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying config/my_controllers.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying config/gaz_ros2_ctl_use_sim.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+copying config/twist_mux.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+running install_egg_info
+Copying ../../build/tbmain/tbmain.egg-info to /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/xanta/tBot/botSpace/build/tbmain/install.log'

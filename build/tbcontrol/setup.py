@@ -1,1 +1,0 @@
-/home/xanta/tBot/botSpace/src/tbcontrol/setup.py

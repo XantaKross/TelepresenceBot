@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/tbcontrol/tbcontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/tbcontrol/tbcontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/tbcontrol/tbcontrol.egg-info/entry_points.txt
+writing requirements to ../../build/tbcontrol/tbcontrol.egg-info/requires.txt
+writing top-level names to ../../build/tbcontrol/tbcontrol.egg-info/top_level.txt
+reading manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tbcontrol/tbcontrol.egg-info to /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+writing list of installed files to '/home/xanta/tBot/botSpace/build/tbcontrol/install.log'
