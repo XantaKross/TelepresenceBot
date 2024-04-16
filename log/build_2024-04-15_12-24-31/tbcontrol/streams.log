@@ -1,0 +1,19 @@
+[0.541s] Invoking command in '/home/xanta/tBot/botSpace/build/tbcontrol': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build --no-deps symlink_data
+[0.757s] running develop
+[0.879s] running egg_info
+[0.880s] writing tbcontrol.egg-info/PKG-INFO
+[0.880s] writing dependency_links to tbcontrol.egg-info/dependency_links.txt
+[0.880s] writing entry points to tbcontrol.egg-info/entry_points.txt
+[0.880s] writing requirements to tbcontrol.egg-info/requires.txt
+[0.880s] writing top-level names to tbcontrol.egg-info/top_level.txt
+[0.881s] reading manifest file 'tbcontrol.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'tbcontrol.egg-info/SOURCES.txt'
+[0.883s] running build_ext
+[0.884s] Creating /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol.egg-link (link to .)
+[0.884s] Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.884s] Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.884s] Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.885s] 
+[0.885s] Installed /home/xanta/tBot/botSpace/build/tbcontrol
+[0.885s] running symlink_data
+[0.925s] Invoked command in '/home/xanta/tBot/botSpace/build/tbcontrol' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build --no-deps symlink_data

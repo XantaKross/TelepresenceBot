@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xanta/tBot/botSpace/install/tbmain:/home/xanta/tBot/botSpace/install/tbcontrol:/opt/ros/humble /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/custom_interface -- -j16 -l16
+[0.071s] [  2%] Built target custom_interface__cpp
+[0.077s] [ 12%] Built target custom_interface__rosidl_generator_c
+[0.083s] [ 12%] Built target ament_cmake_python_symlink_custom_interface
+[0.100s] [ 34%] Built target custom_interface__rosidl_typesupport_cpp
+[0.100s] [ 34%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[0.104s] [ 44%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 76%] Built target custom_interface__rosidl_typesupport_c
+[0.107s] [ 76%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[0.107s] [ 76%] Built target custom_interface__rosidl_typesupport_introspection_c
+[0.131s] [ 76%] Built target custom_interface
+[0.156s] [ 78%] Built target custom_interface__py
+[0.183s] [ 87%] Built target custom_interface__rosidl_generator_py
+[0.210s] [100%] Built target custom_interface__rosidl_typesupport_c__pyext
+[0.210s] [100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[0.210s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.310s] running egg_info
+[0.310s] writing custom_interface.egg-info/PKG-INFO
+[0.310s] writing dependency_links to custom_interface.egg-info/dependency_links.txt
+[0.310s] writing top-level names to custom_interface.egg-info/top_level.txt
+[0.313s] reading manifest file 'custom_interface.egg-info/SOURCES.txt'
+[0.313s] writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[0.347s] [100%] Built target ament_cmake_python_build_custom_interface_egg

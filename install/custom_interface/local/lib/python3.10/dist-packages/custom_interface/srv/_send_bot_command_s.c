@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_generator_py/custom_interface/srv/_send_bot_command_s.c

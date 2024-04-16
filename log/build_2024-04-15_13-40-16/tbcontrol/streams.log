@@ -1,0 +1,19 @@
+[0.570s] Invoking command in '/home/xanta/tBot/botSpace/build/tbcontrol': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build --no-deps symlink_data
+[0.799s] running develop
+[0.929s] running egg_info
+[0.929s] writing tbcontrol.egg-info/PKG-INFO
+[0.929s] writing dependency_links to tbcontrol.egg-info/dependency_links.txt
+[0.929s] writing entry points to tbcontrol.egg-info/entry_points.txt
+[0.930s] writing requirements to tbcontrol.egg-info/requires.txt
+[0.930s] writing top-level names to tbcontrol.egg-info/top_level.txt
+[0.931s] reading manifest file 'tbcontrol.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'tbcontrol.egg-info/SOURCES.txt'
+[0.933s] running build_ext
+[0.933s] Creating /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol.egg-link (link to .)
+[0.933s] Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.934s] Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.934s] Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[0.934s] 
+[0.934s] Installed /home/xanta/tBot/botSpace/build/tbcontrol
+[0.934s] running symlink_data
+[0.976s] Invoked command in '/home/xanta/tBot/botSpace/build/tbcontrol' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build --no-deps symlink_data

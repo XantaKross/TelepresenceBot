@@ -1,0 +1,21 @@
+[0.672s] Invoking command in '/home/xanta/tBot/botSpace/build/tbmain': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build --no-deps symlink_data
+[0.906s] running develop
+[1.046s] running egg_info
+[1.047s] writing tbmain.egg-info/PKG-INFO
+[1.047s] writing dependency_links to tbmain.egg-info/dependency_links.txt
+[1.047s] writing entry points to tbmain.egg-info/entry_points.txt
+[1.047s] writing requirements to tbmain.egg-info/requires.txt
+[1.047s] writing top-level names to tbmain.egg-info/top_level.txt
+[1.049s] reading manifest file 'tbmain.egg-info/SOURCES.txt'
+[1.050s] writing manifest file 'tbmain.egg-info/SOURCES.txt'
+[1.051s] running build_ext
+[1.051s] Creating /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain.egg-link (link to .)
+[1.052s] 
+[1.052s] Installed /home/xanta/tBot/botSpace/build/tbmain
+[1.052s] running symlink_data
+[1.052s] symbolically linking /home/xanta/tBot/botSpace/build/tbmain/description/inertial_macros.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.052s] symbolically linking /home/xanta/tBot/botSpace/build/tbmain/description/gazebo_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.053s] symbolically linking /home/xanta/tBot/botSpace/build/tbmain/description/ros2_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.053s] symbolically linking /home/xanta/tBot/botSpace/build/tbmain/description/robot_core.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.053s] symbolically linking /home/xanta/tBot/botSpace/build/tbmain/description/lidar.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.113s] Invoked command in '/home/xanta/tBot/botSpace/build/tbmain' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build --no-deps symlink_data

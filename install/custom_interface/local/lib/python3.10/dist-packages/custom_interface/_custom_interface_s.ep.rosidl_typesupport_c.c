@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c

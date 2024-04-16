@@ -1,0 +1,3 @@
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_adapter/custom_interface:msg/Act.idl
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_adapter/custom_interface:srv/AddThreeInts.idl
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_adapter/custom_interface:srv/SendBotCommand.idl

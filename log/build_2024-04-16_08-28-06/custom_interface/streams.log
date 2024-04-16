@@ -1,0 +1,189 @@
+[0.020s] Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xanta/tBot/botSpace/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/xanta/tBot/botSpace/install/custom_interface
+[0.056s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.217s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.123s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.124s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.138s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.153s] -- Added test 'lint_cmake' to check CMake code style
+[1.155s] -- Added test 'xmllint' to check XML markup files
+[1.159s] -- Configuring done
+[1.231s] -- Generating done
+[1.236s] -- Build files have been written to: /home/xanta/tBot/botSpace/build/custom_interface
+[1.263s] Invoked command in '/home/xanta/tBot/botSpace/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xanta/tBot/botSpace/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/xanta/tBot/botSpace/install/custom_interface
+[1.266s] Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/custom_interface -- -j16 -l16
+[1.346s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_generator_c[0m
+[1.376s] [ 10%] Built target custom_interface__cpp
+[1.376s] [ 12%] Built target custom_interface__rosidl_generator_c
+[1.399s] [ 12%] Built target ament_cmake_python_symlink_custom_interface
+[1.408s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_c[0m
+[1.409s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_c[0m
+[1.410s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_c[0m
+[1.410s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_cpp[0m
+[1.411s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.445s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_cpp[0m
+[1.453s] [ 23%] Built target custom_interface__rosidl_typesupport_introspection_c
+[1.457s] [ 36%] Built target custom_interface__rosidl_typesupport_c
+[1.458s] [ 44%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[1.466s] [ 55%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[1.467s] [ 65%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[1.478s] [ 76%] Built target custom_interface__rosidl_typesupport_cpp
+[1.524s] [ 76%] Built target custom_interface
+[1.580s] [ 78%] Built target custom_interface__py
+[1.604s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_generator_py[0m
+[1.636s] [ 87%] Built target custom_interface__rosidl_generator_py
+[1.660s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[1.660s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_c__pyext[0m
+[1.660s] [35m[1mConsolidate compiler generated dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.688s] [ 95%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[1.688s] [ 95%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.695s] [100%] Built target custom_interface__rosidl_typesupport_c__pyext
+[1.805s] running egg_info
+[1.806s] writing custom_interface.egg-info/PKG-INFO
+[1.807s] writing dependency_links to custom_interface.egg-info/dependency_links.txt
+[1.807s] writing top-level names to custom_interface.egg-info/top_level.txt
+[1.814s] reading manifest file 'custom_interface.egg-info/SOURCES.txt'
+[1.815s] writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[1.925s] [100%] Built target ament_cmake_python_build_custom_interface_egg
+[1.951s] Invoked command in '/home/xanta/tBot/botSpace/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/custom_interface -- -j16 -l16
+[2.111s] Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/custom_interface
+[2.124s] -- Install configuration: ""
+[2.124s] -- Execute custom install script
+[2.126s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[2.127s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/act.h
+[2.127s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__functions.h
+[2.127s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__struct.h
+[2.128s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__type_support.h
+[2.128s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[2.128s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.h
+[2.128s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__functions.h
+[2.129s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.h
+[2.129s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.h
+[2.129s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__functions.h
+[2.129s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__struct.h
+[2.129s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__type_support.h
+[2.130s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/send_bot_command.h
+[2.130s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/library_path.sh
+[2.130s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[2.131s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__rosidl_typesupport_fastrtps_c.h
+[2.131s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.131s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.132s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__rosidl_typesupport_fastrtps_c.h
+[2.132s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__rosidl_typesupport_introspection_c.h
+[2.132s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.133s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.133s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__rosidl_typesupport_introspection_c.h
+[2.134s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/act.hpp
+[2.134s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__builder.hpp
+[2.134s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__struct.hpp
+[2.134s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__traits.hpp
+[2.134s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.hpp
+[2.135s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__builder.hpp
+[2.135s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.hpp
+[2.135s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__traits.hpp
+[2.135s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__builder.hpp
+[2.135s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__struct.hpp
+[2.136s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__traits.hpp
+[2.136s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/send_bot_command.hpp
+[2.137s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__rosidl_typesupport_fastrtps_cpp.hpp
+[2.137s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.137s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.137s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.139s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/msg/detail/act__rosidl_typesupport_introspection_cpp.hpp
+[2.139s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.139s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/include/custom_interface/custom_interface/srv/detail/send_bot_command__rosidl_typesupport_introspection_cpp.hpp
+[2.140s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[2.140s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[2.140s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.141s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.141s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.141s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.142s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py
+[2.142s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
+[2.142s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.142s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.143s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.143s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.143s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.143s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/libcustom_interface__rosidl_generator_py.so
+[2.143s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/__init__.py
+[2.144s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_act.py
+[2.144s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_act_s.c
+[2.144s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py
+[2.144s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints.py
+[2.144s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints_s.c
+[2.145s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_send_bot_command.py
+[2.145s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_send_bot_command_s.c
+[2.145s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.145s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.146s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.146s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/msg/Act.idl
+[2.146s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/AddThreeInts.idl
+[2.146s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/SendBotCommand.idl
+[2.147s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/msg/Act.msg
+[2.147s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/AddThreeInts.srv
+[2.147s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/AddThreeInts_Request.msg
+[2.147s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/AddThreeInts_Response.msg
+[2.147s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/SendBotCommand.srv
+[2.148s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/SendBotCommand_Request.msg
+[2.148s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/srv/SendBotCommand_Response.msg
+[2.148s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[2.148s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[2.149s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[2.149s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[2.149s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/path.sh
+[2.149s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/environment/path.dsv
+[2.149s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/local_setup.bash
+[2.150s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/local_setup.sh
+[2.150s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/local_setup.zsh
+[2.150s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/local_setup.dsv
+[2.150s] -- Symlinking: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.dsv
+[2.167s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[2.167s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[2.168s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.168s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.168s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.169s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.169s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.169s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.170s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[2.170s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[2.170s] -- Up-to-date symlink: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.xml
+[2.171s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[2.171s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[2.172s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[2.173s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[2.173s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.174s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[2.175s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[2.215s] Listing '/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface'...
+[2.216s] Compiling '/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py'...
+[2.216s] Listing '/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg'...
+[2.216s] Listing '/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv'...
+[2.227s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so
+[2.227s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake
+[2.227s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake
+[2.227s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.228s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake
+[2.229s] -- Up-to-date: /home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.235s] Invoked command in '/home/xanta/tBot/botSpace/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/custom_interface

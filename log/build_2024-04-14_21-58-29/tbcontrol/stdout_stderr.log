@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing tbcontrol.egg-info/PKG-INFO
+writing dependency_links to tbcontrol.egg-info/dependency_links.txt
+writing entry points to tbcontrol.egg-info/entry_points.txt
+writing requirements to tbcontrol.egg-info/requires.txt
+writing top-level names to tbcontrol.egg-info/top_level.txt
+reading manifest file 'tbcontrol.egg-info/SOURCES.txt'
+writing manifest file 'tbcontrol.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol.egg-link (link to .)
+Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+
+Installed /home/xanta/tBot/botSpace/build/tbcontrol
+running symlink_data

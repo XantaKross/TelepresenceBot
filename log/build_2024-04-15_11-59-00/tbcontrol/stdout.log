@@ -1,0 +1,40 @@
+running develop
+Removing /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol.egg-link (link to .)
+running egg_info
+writing ../../build/tbcontrol/tbcontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/tbcontrol/tbcontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/tbcontrol/tbcontrol.egg-info/entry_points.txt
+writing requirements to ../../build/tbcontrol/tbcontrol.egg-info/requires.txt
+writing top-level names to ../../build/tbcontrol/tbcontrol.egg-info/top_level.txt
+reading manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xanta/tBot/botSpace/build/tbcontrol/build
+creating /home/xanta/tBot/botSpace/build/tbcontrol/build/lib
+creating /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+copying tbcontrol/rmcontrol.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+copying tbcontrol/controlClient.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+copying tbcontrol/controlServer.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+copying tbcontrol/__init__.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+running install
+running install_lib
+creating /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/rmcontrol.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/controlClient.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/controlServer.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/__init__.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/rmcontrol.py to rmcontrol.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/controlClient.py to controlClient.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/controlServer.py to controlServer.cpython-310.pyc
+byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/tbcontrol -> /home/xanta/tBot/botSpace/install/tbcontrol/share/ament_index/resource_index/packages
+copying package.xml -> /home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol
+running install_egg_info
+Copying ../../build/tbcontrol/tbcontrol.egg-info to /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+writing list of installed files to '/home/xanta/tBot/botSpace/build/tbcontrol/install.log'

@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/custom_interface/ament_cmake_core/custom_interfaceConfig-version.cmake

@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/xanta/tBot/botSpace/src/custom_interface:msg/Act.msg",
+    "/home/xanta/tBot/botSpace/src/custom_interface:srv/AddThreeInts.srv",
+    "/home/xanta/tBot/botSpace/src/custom_interface:srv/SendBotCommand.srv"
+  ]
+}

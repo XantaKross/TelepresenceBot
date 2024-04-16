@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/serial/ament_cmake_core/serialConfig-version.cmake

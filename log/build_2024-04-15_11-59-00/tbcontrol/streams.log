@@ -1,0 +1,46 @@
+[0.478s] Invoking command in '/home/xanta/tBot/botSpace/build/tbcontrol': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build
+[0.667s] running develop
+[0.667s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.667s]   warnings.warn(
+[0.779s] Removing /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol.egg-link (link to .)
+[0.812s] Invoked command in '/home/xanta/tBot/botSpace/build/tbcontrol' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/xanta/tBot/botSpace/build/tbcontrol/build
+[0.813s] Invoking command in '/home/xanta/tBot/botSpace/src/tbcontrol': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbcontrol build --build-base /home/xanta/tBot/botSpace/build/tbcontrol/build install --record /home/xanta/tBot/botSpace/build/tbcontrol/install.log --single-version-externally-managed install_data --force
+[0.984s] running egg_info
+[0.984s] writing ../../build/tbcontrol/tbcontrol.egg-info/PKG-INFO
+[0.985s] writing dependency_links to ../../build/tbcontrol/tbcontrol.egg-info/dependency_links.txt
+[0.985s] writing entry points to ../../build/tbcontrol/tbcontrol.egg-info/entry_points.txt
+[0.985s] writing requirements to ../../build/tbcontrol/tbcontrol.egg-info/requires.txt
+[0.985s] writing top-level names to ../../build/tbcontrol/tbcontrol.egg-info/top_level.txt
+[0.986s] reading manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../build/tbcontrol/tbcontrol.egg-info/SOURCES.txt'
+[0.989s] running build
+[0.989s] running build_py
+[0.989s] creating /home/xanta/tBot/botSpace/build/tbcontrol/build
+[0.989s] creating /home/xanta/tBot/botSpace/build/tbcontrol/build/lib
+[0.989s] creating /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+[0.989s] copying tbcontrol/rmcontrol.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+[0.989s] copying tbcontrol/controlClient.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+[0.989s] copying tbcontrol/controlServer.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+[0.990s] copying tbcontrol/__init__.py -> /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol
+[0.990s] running install
+[0.990s] running install_lib
+[0.990s] creating /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+[0.990s] copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/rmcontrol.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+[0.990s] copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/controlClient.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+[0.991s] copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/controlServer.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+[0.991s] copying /home/xanta/tBot/botSpace/build/tbcontrol/build/lib/tbcontrol/__init__.py -> /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol
+[0.991s] byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/rmcontrol.py to rmcontrol.cpython-310.pyc
+[0.991s] byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/controlClient.py to controlClient.cpython-310.pyc
+[0.992s] byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/controlServer.py to controlServer.cpython-310.pyc
+[0.992s] byte-compiling /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol/__init__.py to __init__.cpython-310.pyc
+[0.992s] running install_data
+[0.992s] copying resource/tbcontrol -> /home/xanta/tBot/botSpace/install/tbcontrol/share/ament_index/resource_index/packages
+[0.992s] copying package.xml -> /home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol
+[0.993s] running install_egg_info
+[0.994s] Copying ../../build/tbcontrol/tbcontrol.egg-info to /home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages/tbcontrol-0.0.0-py3.10.egg-info
+[0.995s] running install_scripts
+[1.011s] Installing client script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[1.012s] Installing rmcontrol script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[1.012s] Installing service script to /home/xanta/tBot/botSpace/install/tbcontrol/lib/tbcontrol
+[1.012s] writing list of installed files to '/home/xanta/tBot/botSpace/build/tbcontrol/install.log'
+[1.040s] Invoked command in '/home/xanta/tBot/botSpace/src/tbcontrol' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbcontrol build --build-base /home/xanta/tBot/botSpace/build/tbcontrol/build install --record /home/xanta/tBot/botSpace/build/tbcontrol/install.log --single-version-externally-managed install_data --force

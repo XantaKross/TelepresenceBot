@@ -1,0 +1,16 @@
+[0.598s] Invoking command in '/home/xanta/tBot/botSpace/build/tbmain': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build --no-deps symlink_data
+[0.821s] running develop
+[0.945s] running egg_info
+[0.945s] writing tbmain.egg-info/PKG-INFO
+[0.946s] writing dependency_links to tbmain.egg-info/dependency_links.txt
+[0.946s] writing entry points to tbmain.egg-info/entry_points.txt
+[0.946s] writing requirements to tbmain.egg-info/requires.txt
+[0.946s] writing top-level names to tbmain.egg-info/top_level.txt
+[0.947s] reading manifest file 'tbmain.egg-info/SOURCES.txt'
+[0.948s] writing manifest file 'tbmain.egg-info/SOURCES.txt'
+[0.949s] running build_ext
+[0.950s] Creating /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain.egg-link (link to .)
+[0.950s] 
+[0.950s] Installed /home/xanta/tBot/botSpace/build/tbmain
+[0.950s] running symlink_data
+[0.994s] Invoked command in '/home/xanta/tBot/botSpace/build/tbmain' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build --no-deps symlink_data

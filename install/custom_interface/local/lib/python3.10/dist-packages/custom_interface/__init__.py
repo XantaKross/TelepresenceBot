@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_generator_py/custom_interface/__init__.py

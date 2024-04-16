@@ -1,0 +1,198 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cde76bfbac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cde76bfb670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cde76bfb670>>)
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.228s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xanta/tBot/botSpace'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/tbcontrol) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tbcontrol' with type 'ros.ament_python' and name 'tbcontrol'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xanta/tBot/botSpace/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xanta/tBot/botSpace/install/custom_interface', 'merge_install': False, 'path': '/home/xanta/tBot/botSpace/src/custom_interface', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'tbcontrol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'tbcontrol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xanta/tBot/botSpace/build/tbcontrol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xanta/tBot/botSpace/install/tbcontrol', 'merge_install': False, 'path': '/home/xanta/tBot/botSpace/src/tbcontrol', 'symlink_install': False, 'test_result_base': None}
+[0.303s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xanta/tBot/botSpace/src/custom_interface' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xanta/tBot/botSpace/src/custom_interface'
+[0.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/custom_interface -- -j16 -l16
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xanta/tBot/botSpace/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/custom_interface -- -j16 -l16
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xanta/tBot/botSpace/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/custom_interface
+[0.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xanta/tBot/botSpace/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/custom_interface
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface' for CMake module files
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface' for CMake config files
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib'
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/bin'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib/python3.10/site-packages'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/bin'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.sh'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.bash'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.zsh'
+[0.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xanta/tBot/botSpace/install/custom_interface/share/colcon-core/packages/custom_interface)
+[0.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface' for CMake module files
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface' for CMake config files
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib'
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/bin'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/lib/python3.10/site-packages'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/custom_interface/bin'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.sh'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.bash'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/custom_interface/share/custom_interface/package.zsh'
+[0.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xanta/tBot/botSpace/install/custom_interface/share/colcon-core/packages/custom_interface)
+[0.941s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xanta/tBot/botSpace/src/tbcontrol' with build type 'ament_python'
+[0.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('tbcontrol', 'ament_prefix_path')
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/ament_prefix_path.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/ament_prefix_path.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/ament_prefix_path.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xanta/tBot/botSpace/src/tbcontrol'
+[1.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xanta/tBot/botSpace/src/tbcontrol': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbcontrol build --build-base /home/xanta/tBot/botSpace/build/tbcontrol/build install --record /home/xanta/tBot/botSpace/build/tbcontrol/install.log --single-version-externally-managed install_data
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol' for CMake module files
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xanta/tBot/botSpace/src/tbcontrol' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/custom_interface LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xanta/tBot/botSpace/build/tbcontrol/prefix_override:/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages:/home/xanta/tBot/botSpace/install/custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbcontrol build --build-base /home/xanta/tBot/botSpace/build/tbcontrol/build install --record /home/xanta/tBot/botSpace/build/tbcontrol/install.log --single-version-externally-managed install_data
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol' for CMake config files
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol/lib'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol/bin'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol/lib/pkgconfig/tbcontrol.pc'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol/lib/python3.10/site-packages'
+[1.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('tbcontrol', 'pythonpath')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/pythonpath.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/pythonpath.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/hook/pythonpath.sh'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/xanta/tBot/botSpace/install/tbcontrol/bin'
+[1.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tbcontrol)
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/package.ps1'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/package.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/package.sh'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/package.bash'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/xanta/tBot/botSpace/install/tbcontrol/share/tbcontrol/package.zsh'
+[1.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xanta/tBot/botSpace/install/tbcontrol/share/colcon-core/packages/tbcontrol)
+[1.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.706s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.711s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.726s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xanta/tBot/botSpace/install/local_setup.ps1'
+[1.728s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xanta/tBot/botSpace/install/_local_setup_util_ps1.py'
+[1.729s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xanta/tBot/botSpace/install/setup.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xanta/tBot/botSpace/install/local_setup.sh'
+[1.731s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xanta/tBot/botSpace/install/_local_setup_util_sh.py'
+[1.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xanta/tBot/botSpace/install/setup.sh'
+[1.732s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xanta/tBot/botSpace/install/local_setup.bash'
+[1.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xanta/tBot/botSpace/install/setup.bash'
+[1.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xanta/tBot/botSpace/install/local_setup.zsh'
+[1.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xanta/tBot/botSpace/install/setup.zsh'

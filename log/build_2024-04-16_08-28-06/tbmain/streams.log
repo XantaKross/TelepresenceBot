@@ -1,0 +1,52 @@
+[0.803s] Invoking command in '/home/xanta/tBot/botSpace/build/tbmain': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build
+[1.058s] running develop
+[1.219s] Removing /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain.egg-link (link to .)
+[1.425s] Invoked command in '/home/xanta/tBot/botSpace/build/tbmain' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/xanta/tBot/botSpace/build/tbmain/build
+[1.433s] Invoking command in '/home/xanta/tBot/botSpace/src/tbmain': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbmain build --build-base /home/xanta/tBot/botSpace/build/tbmain/build install --record /home/xanta/tBot/botSpace/build/tbmain/install.log --single-version-externally-managed install_data --force
+[1.906s] running egg_info
+[1.906s] writing ../../build/tbmain/tbmain.egg-info/PKG-INFO
+[1.907s] writing dependency_links to ../../build/tbmain/tbmain.egg-info/dependency_links.txt
+[1.907s] writing entry points to ../../build/tbmain/tbmain.egg-info/entry_points.txt
+[1.907s] writing requirements to ../../build/tbmain/tbmain.egg-info/requires.txt
+[1.907s] writing top-level names to ../../build/tbmain/tbmain.egg-info/top_level.txt
+[1.911s] reading manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+[1.912s] writing manifest file '../../build/tbmain/tbmain.egg-info/SOURCES.txt'
+[1.913s] running build
+[1.913s] running build_py
+[1.913s] creating /home/xanta/tBot/botSpace/build/tbmain/build
+[1.913s] creating /home/xanta/tBot/botSpace/build/tbmain/build/lib
+[1.913s] creating /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain
+[1.913s] copying tbmain/rmcontrol.py -> /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain
+[1.913s] copying tbmain/controlClient.py -> /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain
+[1.913s] copying tbmain/controlServer.py -> /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain
+[1.914s] copying tbmain/__init__.py -> /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain
+[1.914s] running install
+[1.915s] running install_lib
+[1.917s] creating /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+[1.917s] copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/rmcontrol.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+[1.917s] copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/controlClient.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+[1.917s] copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/controlServer.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+[1.917s] copying /home/xanta/tBot/botSpace/build/tbmain/build/lib/tbmain/__init__.py -> /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain
+[1.917s] byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/rmcontrol.py to rmcontrol.cpython-310.pyc
+[1.918s] byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/controlClient.py to controlClient.cpython-310.pyc
+[1.919s] byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/controlServer.py to controlServer.cpython-310.pyc
+[1.919s] byte-compiling /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain/__init__.py to __init__.cpython-310.pyc
+[1.919s] running install_data
+[1.920s] copying resource/tbmain -> /home/xanta/tBot/botSpace/install/tbmain/share/ament_index/resource_index/packages
+[1.920s] copying package.xml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.920s] copying launch/rsp.launch.py -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.920s] copying launch/launch_sim.launch.py -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.921s] copying description/inertial_macros.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.921s] copying description/gazebo_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.922s] copying description/ros2_control.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.922s] copying description/robot.urdf.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.923s] copying description/robot_core.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.923s] copying description/lidar.xacro -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.924s] copying config/my_controllers.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.924s] copying config/gaz_ros2_ctl_use_sim.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.924s] copying config/twist_mux.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+[1.925s] running install_egg_info
+[1.929s] Copying ../../build/tbmain/tbmain.egg-info to /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain-0.0.0-py3.10.egg-info
+[1.929s] running install_scripts
+[1.958s] writing list of installed files to '/home/xanta/tBot/botSpace/build/tbmain/install.log'
+[2.064s] Invoked command in '/home/xanta/tBot/botSpace/src/tbmain' returned '0': PYTHONPATH=/home/xanta/tBot/botSpace/build/tbmain/prefix_override:/home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tbmain build --build-base /home/xanta/tBot/botSpace/build/tbmain/build install --record /home/xanta/tBot/botSpace/build/tbmain/install.log --single-version-externally-managed install_data --force

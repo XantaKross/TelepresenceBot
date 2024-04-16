@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing tbmain.egg-info/PKG-INFO
+writing dependency_links to tbmain.egg-info/dependency_links.txt
+writing entry points to tbmain.egg-info/entry_points.txt
+writing requirements to tbmain.egg-info/requires.txt
+writing top-level names to tbmain.egg-info/top_level.txt
+reading manifest file 'tbmain.egg-info/SOURCES.txt'
+writing manifest file 'tbmain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xanta/tBot/botSpace/install/tbmain/lib/python3.10/site-packages/tbmain.egg-link (link to .)
+
+Installed /home/xanta/tBot/botSpace/build/tbmain
+running symlink_data
+symbolically linking /home/xanta/tBot/botSpace/build/tbmain/config/my_controllers.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+symbolically linking /home/xanta/tBot/botSpace/build/tbmain/config/gaz_ros2_ctl_use_sim.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain
+symbolically linking /home/xanta/tBot/botSpace/build/tbmain/config/twist_mux.yaml -> /home/xanta/tBot/botSpace/install/tbmain/share/tbmain

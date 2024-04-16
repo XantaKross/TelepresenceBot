@@ -1,0 +1,1 @@
+/home/xanta/tBot/botSpace/build/custom_interface/rosidl_generator_cpp/custom_interface/srv/detail/send_bot_command__builder.hpp

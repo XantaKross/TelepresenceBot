@@ -1,0 +1,10 @@
+msg/Act.idl
+msg/Act.msg
+srv/AddThreeInts.idl
+srv/AddThreeInts.srv
+srv/AddThreeInts_Request.msg
+srv/AddThreeInts_Response.msg
+srv/SendBotCommand.idl
+srv/SendBotCommand.srv
+srv/SendBotCommand_Request.msg
+srv/SendBotCommand_Response.msg

@@ -1,0 +1,57 @@
+[0.012s] Invoking command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/xanta/tBot/botSpace/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xanta/tBot/botSpace/install/diffdrive_arduino
+[0.026s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.167s] -- Found serial: 1.2.1 (/home/xanta/tBot/botSpace/install/serial/share/serial/cmake)
+[0.168s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.193s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.843s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.981s] -- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.124s] -- Configuring done
+[2.173s] -- Generating done
+[2.175s] -- Build files have been written to: /home/xanta/tBot/botSpace/build/diffdrive_arduino
+[2.183s] Invoked command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/xanta/tBot/botSpace/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xanta/tBot/botSpace/install/diffdrive_arduino
+[2.185s] Invoking command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/diffdrive_arduino -- -j16 -l16
+[2.234s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[2.234s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[2.258s] [ 14%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[2.261s] [ 28%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[2.463s] [ 57%] Built target fake_robot
+[2.467s] [100%] Built target diffdrive_arduino
+[2.484s] Invoked command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/xanta/tBot/botSpace/build/diffdrive_arduino -- -j16 -l16
+[2.534s] Invoking command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/diffdrive_arduino
+[2.542s] -- Install configuration: ""
+[2.542s] -- Execute custom install script
+[2.542s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[2.554s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[2.564s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[2.575s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/lib/libfake_robot.so
+[2.588s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[2.599s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[2.610s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[2.621s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[2.633s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[2.644s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[2.655s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[2.666s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[2.678s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[2.689s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[2.700s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[2.710s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[2.722s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[2.733s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[2.744s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[2.755s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[2.766s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[2.778s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[2.789s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[2.799s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.810s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[2.820s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[2.831s] -- Symlinking: /home/xanta/tBot/botSpace/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[2.846s] Invoked command in '/home/xanta/tBot/botSpace/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xanta/tBot/botSpace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/xanta/tBot/botSpace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/xanta/tBot/botSpace/build/diffdrive_arduino
